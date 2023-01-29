@@ -10,7 +10,7 @@ void delay(uint32_t cnt){
 int main(void)
 {
 
-	GPIOA->MODDER |= (1<<10);
+
 	for(;;){
 
 

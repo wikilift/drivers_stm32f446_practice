@@ -28,7 +28,7 @@ void assert_failed(uint8_t *file, uint32_t line);
 #define APB2PERIPH_BASEADDR			0x40010000UL
 #define APB1PERIPH_BASEADDR			0x40000000UL
 
-/* Perifericos AHB1 */
+/*  AHB1 Peripheral */
 #define GPIOA_BASEADDR			(AHB1PERIPH_BASEADDR + 0x0000)
 #define GPIOB_BASEADDR			(AHB1PERIPH_BASEADDR + 0x0400)
 #define GPIOC_BASEADDR			(AHB1PERIPH_BASEADDR + 0x0800)
@@ -40,7 +40,7 @@ void assert_failed(uint8_t *file, uint32_t line);
 
 #define RCC_BASEADDR			(AHB1PERIPH_BASEADDR + 0x3800)
 
-/* Perifericos APB2 */
+/*  APB2 Peripheral */
 #define SYSCFG_BASEADDR			(APB2PERIPH_BASEADDR + 0x3800)
 #define EXTI_BASEADDR			(APB2PERIPH_BASEADDR + 0x3C00)
 
@@ -50,7 +50,7 @@ void assert_failed(uint8_t *file, uint32_t line);
 #define TIM10_BASEADDR          (APB2PERIPH_BASEADDR + 0x4400)
 #define TIM11_BASEADDR          (APB2PERIPH_BASEADDR + 0x4800)
 
-/* Perifericos APB1 */
+/*  APB1 Peripheral */
 #define TIM2_BASEADDR          	(APB1PERIPH_BASEADDR + 0x0000)
 #define TIM3_BASEADDR         	(APB1PERIPH_BASEADDR + 0x0400)
 #define TIM4_BASEADDR          	(APB1PERIPH_BASEADDR + 0x0800)
